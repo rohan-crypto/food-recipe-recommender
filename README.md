@@ -20,8 +20,9 @@ A Streamlit web app that recommends recipes based on the ingredients you have. I
 ## Installation
 
 **Clone the repository**
-```bash
+
 git clone https://github.com/rohan-crypto/food-recipe-recommender.git
+
 cd food-recipe-recommender
 
 ## Create a virtual environment
@@ -37,4 +38,8 @@ pip install -r requirements.txt
 ## Running Locally
 
 streamlit run app.py
+
+## Deployed at
+
+
 
