@@ -1,0 +1,51 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.py[cod]
+*.pyd
+*.env
+*.venv
+*.virtualenv
+
+# Virtual environment directories
+venv/
+env/
+.venv/
+.env/
+
+# NLTK downloaded data
+nltk_data/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Streamlit temporary files
+.streamlit/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# CSV/data files (optional: keep if you want to commit sample data)
+data/*.csv
+
+# Pytest cache
+.pytest_cache/
+
+# mypy type check cache
+.mypy_cache/
+
+# VS Code settings
+.vscode/
+
+# Deployment artifacts
+*.tar.gz
+*.egg
+*.egg-info/
+dist/
+build/
