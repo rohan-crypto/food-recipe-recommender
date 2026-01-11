@@ -8,6 +8,15 @@ from collections import Counter
 import nltk
 from nltk.corpus import stopwords
 
+# Download stopwords if not already available
+try:
+    from nltk.corpus import stopwords
+    EN_STOPWORDS = set(stopwords.words('english'))
+except LookupError:
+    nltk.download('stopwords')
+    from nltk.corpus import stopwords
+    EN_STOPWORDS = set(stopwords.words('english'))
+
 # NLTK stopwords
 EN_STOPWORDS = set(stopwords.words('english'))
 
