@@ -1,8 +1,15 @@
 import numpy as np
 from sklearn.metrics.pairwise import cosine_similarity
 
-NON_VEG_ITEMS = {"chicken","mutton","beef","pork","fish","egg","eggs","shrimp","prawn","crab","lobster","bacon","ham"}
-DAIRY_ITEMS = {"milk","cheese","butter","cream","yogurt","curd","ghee"}
+NON_VEG_ITEMS = {
+    "chicken", "mutton", "beef", "pork", "fish", "tuna", "egg", "eggs",
+    "shrimp", "prawn", "crab", "lobster", "bacon", "ham", "turkey",
+    "rattlesnake", "duck", "goat", "anchovy", "salmon", "sardine"
+}
+DAIRY_ITEMS = {
+    "milk", "cheese", "butter", "cream", "yogurt", "curd", "ghee",
+    "egg", "eggs", "honey", "parmesan", "mozzarella", "cheddar"
+}
 
 def ingredient_overlap(user_ingredients, recipe_ingredients):
     user_set = set(user_ingredients.lower().split())
