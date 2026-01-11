@@ -41,5 +41,4 @@ streamlit run app.py
 
 ## Deployed at
 
-
-
+https://food-recipe-recommender-bz6esm5tpbebmnqcis6wyw.streamlit.app/
